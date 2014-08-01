@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 31, 2014, 7:26:28 PM
+    Author     : ghal
+*/
+body{
+    animation:mymove 60s infinite;
+    -webkit-animation:mymove 60s infinite; /* Safari and Chrome */
+}
+@keyframes mymove
+{
+    0%   { background:#6BB9F0;}
+    25%  { background:#2980b9;}
+    50%  { background:#6BB9F0;}
+    75%  { background:#2980b9;}
+    100% { background:#6BB9F0;}
+}
+
+@-webkit-keyframes mymove
+{
+    0%   { background:#6BB9F0;}
+    25%  { background:#2980b9;}
+    50%  { background:#6BB9F0;}
+    75%  { background:#2980b9;}
+    100% { background:#6BB9F0;}
+}
